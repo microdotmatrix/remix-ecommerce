@@ -16,7 +16,7 @@
     "cypress": "cypress open",
     "start": "remix-serve build",
     "postinstall": "run-s setup:*",
-    "setup:install-sharp": "(cd ./node_modules/sharp && npm run install)"
+    "setup:install-sharp": "(cd ./node_modules/remix-image-sharp && npm run install)"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
